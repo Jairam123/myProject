@@ -1,0 +1,16 @@
+package com.girnarsoft.threaddemo;
+
+public class Myclass implements Runnable {
+    
+	//boolean stop=false;//create boolean variable to stop thread
+	public void run() {
+		
+	         for(int i=1;i<10;i++){
+	        	  System.out.println("I am in user define process:"+i);
+	        	 
+	         }
+	         System.out.println("current thread:"+Thread.currentThread());
+	}
+	
+
+}

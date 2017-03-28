@@ -1,0 +1,39 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import java.sql.SQLException;
+
+import com.girnarsoft.customercomplaintsystem.dto.EmployeeDetails;
+import com.girnarsoft.customercomplaintsystem.service.UserService;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+
+public class RegisterAction extends ActionSupport implements ModelDriven {
+    private EmployeeDetails employeeDetails;
+    private UserService userService;
+	
+    public RegisterAction() {
+	   employeeDetails = new EmployeeDetails();
+	   userService = new UserService();
+   }
+    public String execute() {
+		try {
+			    if(userService.insertEmployeeDetailsIntoDb(employeeDetails)){
+			    	return "success";
+			    }else{
+			    	  return "duplicatesInUserName";
+			    }
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+			return "dataInsertionError";
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return "dataInsertionError";
+		}
+		
+	}
+	public Object getModel() {
+		return employeeDetails;
+	}
+	
+
+}

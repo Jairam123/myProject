@@ -1,0 +1,5 @@
+package com.girnarsoft.customercomplaintsystem.dao;
+
+public class SecurityQuestionDao {
+
+}

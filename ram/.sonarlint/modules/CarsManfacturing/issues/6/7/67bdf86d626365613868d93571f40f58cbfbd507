@@ -1,0 +1,8 @@
+
+dsquid:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÛÈ¦ü¦+
+Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ýþ8 åÆó¦+
+Ssquid:S2209'"5Change this instance-reference to a static reference.(ÝÅƒ»8ÛÈ¦ü¦+
+Ssquid:S2209&"5Change this instance-reference to a static reference.(Âð†ã8ÛÈ¦ü¦+
+Fsquid:S1148""#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÛÈ¦ü¦+
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8‘§¹ü¦+
+dsquid:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‘§¹ü¦+

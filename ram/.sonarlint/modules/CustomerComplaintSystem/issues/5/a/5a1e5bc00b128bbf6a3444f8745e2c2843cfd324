@@ -1,0 +1,10 @@
+
+]squid:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿ8›™òœ°+
+Xsquid:S1161"":Add the "@Override" annotation above this method signature(—Û“ˆ8­ÿ¨Š°+
+bsquid:S2147"DCombine this catch with the one at line 25, which has the same body.(É®£8›™òœ°+
+Tsquid:S1948"1Make "employeeDetails" transient or serializable.(ĞŸ½‹üÿÿÿÿ8­ÿ¨Š°+
+Csquid:S1166"%Either log or rethrow this exception.(É®£8›™òœ°+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›™òœ°+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›™òœ°+
+Csquid:S1166"%Either log or rethrow this exception.(ıàÑÎ8›™òœ°+
+Osquid:S1948"1Make "employeeService" transient or serializable.(ŞÈ8…ˆœ°°+

@@ -1,0 +1,81 @@
+package com.girnarsoft.customercomplaintsystem.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import com.girnarsoft.customercomplaintsystem.constant.DaoConstants;
+import com.girnarsoft.customercomplaintsystem.dto.ComplaintDetails;
+import com.girnarsoft.customercomplaintsystem.dto.CustomerDetails;
+
+public class ComplaintsDao {
+	PreparedStatement preparedStatement;
+
+	public Connection getConnection() throws ClassNotFoundException, SQLException {
+		// register driver
+		Class.forName(DaoConstants.JDBC_DRIVER_REGISTER);
+		// open connection
+		Connection connection = DriverManager.getConnection(DaoConstants.JDBC_URL, DaoConstants.USER_NAME,
+				DaoConstants.USER_PASSWORD);
+		return connection;
+	}
+
+	public void insertComplaintDetailsInDb(ComplaintDetails complaintDetails)
+			throws ClassNotFoundException, SQLException, ParseException {
+		String sqlQuery = "insert into complaints values(?,?,?,?,?,?,?,?)";
+		preparedStatement = getConnection().prepareStatement(sqlQuery);
+		Date complaintDate = new SimpleDateFormat("MM/dd/yyyy").parse(complaintDetails.getDate());
+		preparedStatement.setInt(1, 0);
+		preparedStatement.setString(2, complaintDetails.getCustomerName());
+		preparedStatement.setString(3, complaintDetails.getMobileNumber());
+		preparedStatement.setString(4, complaintDetails.getEmail());
+		preparedStatement.setDate(5, new java.sql.Date(complaintDate.getTime()));
+		preparedStatement.setString(6, complaintDetails.getComment());
+		preparedStatement.setBoolean(7, false);
+		preparedStatement.setInt(8, complaintDetails.getEmployeeId());
+		preparedStatement.executeUpdate();
+		preparedStatement.close();
+		getConnection().close();
+	}
+
+	public ResultSet getComplainerNames() throws ClassNotFoundException, SQLException {
+		String sqlQuery = "select CustomerName from complaints";
+		preparedStatement = getConnection().prepareStatement(sqlQuery);
+		ResultSet rSet = preparedStatement.executeQuery();
+		return rSet;
+	}
+
+	public List<CustomerDetails> getCustomersListBySearch(int employeeId, String customerName, String mobileNumber,
+			String fromDate, String toDate)
+			throws ClassNotFoundException, SQLException {
+
+		String sql = "select * from complaints where EmployeeId=? AND IsResolved=?";
+		int statementIndexCounter = 0;
+		preparedStatement = getConnection().prepareStatement(sql);
+		preparedStatement.setInt(++statementIndexCounter, employeeId);
+		preparedStatement.setBoolean(++statementIndexCounter, false);
+		ResultSet rSet = preparedStatement.executeQuery();
+		
+		List<CustomerDetails> customersList = new ArrayList<>();
+		try {
+			while (rSet.next()) {
+				CustomerDetails customerDetails = new CustomerDetails(rSet.getString(" CustomerMobileNumber "),
+						rSet.getString("CustomerName"), rSet.getString("CustomerEmail"), rSet.getString("Comments"),
+						rSet.getDate("ComplaintGeneratedDate"));
+				customersList.add(customerDetails);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		getConnection().close();
+		return customersList;
+	}
+}

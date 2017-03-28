@@ -1,0 +1,5 @@
+package com.girnarsoft.example.action;
+
+public class HelloWorldAction {
+
+}

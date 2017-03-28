@@ -1,0 +1,15 @@
+
+›squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(œş´ùüÿÿÿÿ
+_squid:S2583"CChange this condition so that it does not always evaluate to "true"(ıü‡Ìûÿÿÿÿ
+Csquid:S1166,"%Either log or rethrow this exception.(Œ°—ı8ÈØÀ°°+
+Csquid:S11669"%Either log or rethrow this exception.(Œ°—ı8–ÒÄ°°+
+Zsquid:S1854 ">Remove this useless assignment to local variable "categoryId".(¨ì§˜ùÿÿÿÿ
+usquid:S00117%"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÅã™8ÈØÀ°°+
+Osquid:S1854"8Remove this useless assignment to local variable "flag".(ÆÉàù
+^$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(ÆÉàù
+Fsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÈØÀ°°+
+usquid:S001172"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”«€8–ÒÄ°°+
+Fsquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–ÒÄ°°+
+–squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÉªôÜ
+Csquid:S1166B"%Either log or rethrow this exception.(Œ°—ı8÷ôõÛ°+
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷ôõÛ°+

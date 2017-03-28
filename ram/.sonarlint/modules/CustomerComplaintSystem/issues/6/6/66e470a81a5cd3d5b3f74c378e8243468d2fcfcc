@@ -1,0 +1,5 @@
+
+…squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(–ÀÍ„ùÿÿÿÿ8æ§òù¯+
+ysquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8ç†Æ‚°+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(éÔïÖúÿÿÿÿ8æ§òù¯+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶þÿÿÿÿ8æ§òù¯+

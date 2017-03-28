@@ -1,0 +1,18 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import java.util.HashMap;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class SignUpAction extends ActionSupport {
+    private HashMap<Integer,String> questionMap;
+	
+	public SignUpAction() {
+    	 
+	}
+	  
+		public String execute(){
+	    	return "success";  
+	      }	
+
+}

@@ -1,0 +1,16 @@
+package com.girnarsoft.example.form;
+
+import org.apache.struts.action.ActionForm;
+
+public class HelloWorldForm extends ActionForm {
+    	
+          private String setMesssage;
+
+		public String getSetMesssage() {
+			return setMesssage;
+		}
+
+		public void setSetMesssage(String setMesssage) {
+			this.setMesssage = setMesssage;
+		}
+}

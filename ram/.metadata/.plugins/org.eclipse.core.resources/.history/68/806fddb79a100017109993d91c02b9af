@@ -1,0 +1,35 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.girnarsoft.customercomplaintsystem.service.SignUpService;
+import com.opensymphony.xwork2.ActionSupport;
+import com.girnarsoft.customercomplaintsystem.dto.SecurityQuestionDetails;
+public class SignUpAction extends ActionSupport {
+    private List<SecurityQuestionDetails> questionList = new ArrayList<>();
+   
+	private SignUpService signUpService;
+	public SignUpAction() {
+		signUpService =  new SignUpService();
+	}
+	
+		public String execute(){
+	    	setQuestionList(signUpService.getQuestionsListFromDao());
+			return "success";
+			
+			
+			
+		}
+
+		public List<SecurityQuestionDetails> getQuestionList() {
+			return questionList;
+		}
+
+		public void setQuestionList(List<SecurityQuestionDetails> questionList) {
+			this.questionList = questionList;
+		}
+
+
+
+}

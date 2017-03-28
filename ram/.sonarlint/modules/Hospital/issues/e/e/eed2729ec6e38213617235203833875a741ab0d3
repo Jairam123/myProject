@@ -1,0 +1,81 @@
+
+Åsquid:S1151}"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(°ç»õ
+Q
+squid:S106\";Replace this usage of System.out or System.err by a logger.(√Ç«ó
+bsquid:S1226<"FIntroduce a new variable instead of reusing the parameter "patientID".(ﬁ∞⁄Ê˘ˇˇˇˇ
+Q
+squid:S106W";Replace this usage of System.out or System.err by a logger.(£˜≈π
+i
+squid:S134Y"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…”†œ˚ˇˇˇˇ
+Ösquid:S1319¬"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(”±œ‹
+i
+squid:S134m"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…”†œ˚ˇˇˇˇ
+_squid:HiddenFieldCheckù"=Rename "patientID" which hides the field declared at line 22.(°¯ã
+Q
+squid:S106Q";Replace this usage of System.out or System.err by a logger.(ÁúÁ¥
+R
+squid:S106å";Replace this usage of System.out or System.err by a logger.(ÎØ€˜
+;squid:S1219V"%Remove this misleading "Outer" label.(˘˚ùd
+n
+squid:S135j"YReduce the total number of break and continue statements in this loop to use at most one.(˘˚ùd
+V
+squid:S1064";Replace this usage of System.out or System.err by a logger.(¸µ∏Œ˘ˇˇˇˇ
+Q
+squid:S106í";Replace this usage of System.out or System.err by a logger.(™ŸÒz
+f squid:LabelsShouldNotBeUsedCheckV";Refactor the code to remove this label and the need for it.(˘˚ùd
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶ƒÀ˙¯ˇˇˇˇ
+Üsquid:S1151U"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(Ÿ∆‰ ˇˇˇˇˇ
+Q
+squid:S106c";Replace this usage of System.out or System.err by a logger.(ÎØ€˜
+Q
+squid:S106Ö";Replace this usage of System.out or System.err by a logger.(√ÌÖ!
+n
+squid:S135~"YReduce the total number of break and continue statements in this loop to use at most one.(˘˚ùd
+n
+squid:S135V"YReduce the total number of break and continue statements in this loop to use at most one.(˘˚ùd
+f squid:LabelsShouldNotBeUsedCheck~";Refactor the code to remove this label and the need for it.(˘˚ùd
+V
+squid:S106@";Replace this usage of System.out or System.err by a logger.(Ü∆íÇ˙ˇˇˇˇ
+V
+squid:S106s";Replace this usage of System.out or System.err by a logger.(ÛÒ£◊˚ˇˇˇˇ
+W
+squid:S106à";Replace this usage of System.out or System.err by a logger.(ôÈ—ü˙ˇˇˇˇ
+Q
+squid:S106w";Replace this usage of System.out or System.err by a logger.(ÎØ€˜
+P
+squid:S106p";Replace this usage of System.out or System.err by a logger.(‡ÃÜ
+V
+squid:S106;";Replace this usage of System.out or System.err by a logger.(™”º·˛ˇˇˇˇ
+V
+squid:S106/";Replace this usage of System.out or System.err by a logger.(ª©‘Õ˘ˇˇˇˇ
+;squid:S1219j"%Remove this misleading "Outer" label.(˘˚ùd
+V
+squid:S1068";Replace this usage of System.out or System.err by a logger.(°∆¶Ÿ˛ˇˇˇˇ
+Q
+squid:S106_";Replace this usage of System.out or System.err by a logger.(Á∏ô·
+W
+squid:S106†";Replace this usage of System.out or System.err by a logger.(ÓÛ’ß˘ˇˇˇˇ
+á squid:MethodCyclomaticComplexityO"\The Cyclomatic Complexity of this method "update" is 18 which is greater than 10 authorized.(±ñÄl
+V
+squid:S106E";Replace this usage of System.out or System.err by a logger.(ùªóÒ˝ˇˇˇˇ
+V
+squid:S106?";Replace this usage of System.out or System.err by a logger.(∆›Åø¯ˇˇˇˇ
+j
+squid:S134Ç"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(…”†œ˚ˇˇˇˇ
+Q
+squid:S1061";Replace this usage of System.out or System.err by a logger.(ÿÖˇø
+squid:S1192c"hDefine a constant instead of duplicating this literal "Sorry with this ID thier was no patient" 3 times.(ÎØ€˜
+èsquid:S1319∆"rThe type of the "patientMap" object should be an interface such as "Map" rather than the implementation "HashMap".(À°Ë´˘ˇˇˇˇ
+Åsquid:S1151i"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(Áø‘è
+;squid:S1219~"%Remove this misleading "Outer" label.(˘˚ùd
+bsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(µ˚øπ
+f squid:LabelsShouldNotBeUsedCheckj";Refactor the code to remove this label and the need for it.(˘˚ùd
+tsquid:S1450"XRemove the "patientID" field and declare it as a local variable in the relevant methods.(∏ú∏á˙ˇˇˇˇ
+V
+squid:S1060";Replace this usage of System.out or System.err by a logger.(µ†˜˙˘ˇˇˇˇ
+W
+squid:S106ú";Replace this usage of System.out or System.err by a logger.(Âóë¡˚ˇˇˇˇ
+R
+squid:S106™";Replace this usage of System.out or System.err by a logger.(∆¿˚˝
+Q
+squid:S106.";Replace this usage of System.out or System.err by a logger.(ÿÖˇø

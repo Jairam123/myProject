@@ -1,0 +1,20 @@
+
+bsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(±íË¦
+gsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(öÅÀÃÿÿÿÿÿ
+V
+squid:S106K";Replace this usage of System.out or System.err by a logger.(ƒ½®ðýÿÿÿÿ
+V
+squid:S106T";Replace this usage of System.out or System.err by a logger.(¯Ý€“ÿÿÿÿÿ
+V
+squid:S106Z";Replace this usage of System.out or System.err by a logger.(•†îÆÿÿÿÿÿ
+V
+squid:S106[";Replace this usage of System.out or System.err by a logger.(¯åðÏüÿÿÿÿ
+Q
+squid:S106\";Replace this usage of System.out or System.err by a logger.(¢÷ó
+Q
+squid:S106]";Replace this usage of System.out or System.err by a logger.(ÃÜé³
+V
+squid:S106^";Replace this usage of System.out or System.err by a logger.(¯åðÏüÿÿÿÿ
+‰ squid:MethodCyclomaticComplexity+"]The Cyclomatic Complexity of this method "process" is 11 which is greater than 10 authorized.(˜è€À
+Asquid:S1166K"%Either log or rethrow this exception.(ƒ½®ðýÿÿÿÿ
+…squid:S1151F"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(©‹Ä…úÿÿÿÿ

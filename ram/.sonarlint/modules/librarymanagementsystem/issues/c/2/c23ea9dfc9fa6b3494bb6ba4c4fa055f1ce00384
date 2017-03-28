@@ -1,0 +1,11 @@
+
+[squid:S1213"8Move this variable to comply with Java Code Conventions.(Û”øÚøÿÿÿÿ8ü“È¬­+
+[squid:S1213"8Move this variable to comply with Java Code Conventions.(œãë­úÿÿÿÿ8ü“È¬­+
+[squid:S1213"8Move this variable to comply with Java Code Conventions.(¶òÁÈùÿÿÿÿ8ü“È¬­+
+[squid:S1213"8Move this variable to comply with Java Code Conventions.(™ˆÚ˜ÿÿÿÿÿ8ü“È¬­+
+Csquid:S1166@"%Either log or rethrow this exception.(É®£8óŒ„Â¬+
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óŒ„Â¬+
+Fsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óŒ„Â¬+
+Csquid:S1166<"%Either log or rethrow this exception.(ıàÑÎ8óŒ„Â¬+
+bsquid:S2147@"DCombine this catch with the one at line 60, which has the same body.(É®£8óŒ„Â¬+
+^squid:S1213";Move this constructor to comply with Java Code Conventions.(…ÇæÄüÿÿÿÿ8ü“È¬­+

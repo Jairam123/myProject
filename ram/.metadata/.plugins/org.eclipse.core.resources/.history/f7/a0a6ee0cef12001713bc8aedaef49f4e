@@ -1,0 +1,108 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="Css/styleForLastpages.css">
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:15%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<form action="logOut">
+ <button type="submit" id="logOut">LogOut</button>
+ <button type="submit" formaction="manager1.jsp" class="button">Back</button>
+</form>
+<s:form action="complaintResolved" onsubmit="return check()" name="search">
+
+	<table>
+
+
+         <tr>
+              <th>Select</th>
+              <th>ComplaintId</th>
+              <th>CustomerName</th>
+              <th>MobileNumber</th>
+              <th>Email</th>
+              <th>ComplaintGeneratedDate</th>
+              <th>Comments</th>
+    </tr>
+
+
+  				<s:iterator value="customersList">
+  					<tr>
+  						<td><s:checkbox class="check" name="checkBoxes"
+  								fieldValue="%{complaintId}" theme="simple" /></td>
+  						<td><s:property value="complaintId" /></td>
+  						<td><s:property value="customerName" /></td>
+  						<td><s:property value="mobileNumber" /></td>
+  						<td><s:property value="email" /></td>
+  						<td><s:property value="date" /></td>
+                        <td><s:property value="comments" /></td>
+  					</tr>
+           
+  				</s:iterator>
+  		</table>
+      <br>
+      <label style="position:absolute;left:16%" >
+              select l2 manager</label>
+              <br>
+
+      <select name="employeeId" style="width:60%;position:absolute;left:16%">
+      <option selected disabled>choose here</option>
+      <s:iterator  value="l2ManagersList">
+      <option value="<s:property value="employeeId"/>"><s:property value="managerName"/></option>
+      </s:iterator>
+      </select>
+       <br>
+      <br>
+
+      <label style="position:absolute;left:16%">
+        Comments</label>
+        <br>
+      <textarea style="position:absolute;left:16%" rows="3" cols="60" name="comment">
+Enter text here...</textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+                 <s:submit method="resolved" cssClass="button" cssStyle="float:left;"  value="Resolve"/>
+                 <s:submit method="escalate" cssClass="button"   value="Escalate"/>
+</s:form>
+<script>
+function check(){
+	alert("helo");
+	 var x = document.myForm.checkBoxes;
+	 var status = false;
+		for (var i = 0; i < x.length; i++) {
+			if ((x[i].checked)) {
+			    true;
+			}
+		}
+	if(!flag){
+			   alert("please select one of complaint");	
+			 }
+			
+} 
+</script>
+
+</body>
+</html>

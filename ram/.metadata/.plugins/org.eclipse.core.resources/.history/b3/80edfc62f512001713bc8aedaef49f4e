@@ -1,0 +1,44 @@
+
+var isSubmit = true;
+document.getElementById('resolve').addEventListener("click", function() {
+	 checkBoxesCheckedValidation();
+	 commentsValidation();
+});
+
+document.getElementById('escalate').addEventListener("click", function() {
+	dropdownValidation();
+});
+
+function commentsValidation() {
+	var x = document.getElementById("commnets").value;
+	if(x=""||x.length==0){
+		isSubmit = false;
+	}
+		
+}
+function checkBoxesCheckedValidation(){
+	var x = document.search.checkBoxes;
+	var status = false;
+	for (var i = 0; i < x.length; i++) {
+		if ((x[i].checked)) {
+			status = true;
+		}
+	}
+
+	if (!status) {
+		
+		isSubmit = false;
+	}
+}
+function dropdownValidation(){
+	 document.getElementsByTagName("textarea")[0].setAttribute("class", "democlass")
+}
+
+document.getElementById("search").addEventListener("submit", function(event) {
+	if (!isSubmit)
+{
+	event.preventDefault();
+	isSubmit = true;
+}
+	
+});

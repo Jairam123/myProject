@@ -1,0 +1,42 @@
+
+Ssquid:UselessImportCheck"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+squid:S1160A"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(èø«ü8ÙÇòÍ¦+
+V
+squid:S106M";Replace this usage of System.out or System.err by a logger.(ÖÈï¢üÿÿÿÿ
+Xsquid:UselessImportCheck
+"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã
+]squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ
+V
+squid:S106Y";Replace this usage of System.out or System.err by a logger.(‹áÄøÿÿÿÿ
+isquid:CommentedOutCodeLine_"<This block of commented-out lines of code should be removed.(Ô·¦î8ıÈÏ¦+
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+Q
+squid:S106J";Replace this usage of System.out or System.err by a logger.(˜¡Ô®
+Q
+squid:S106l";Replace this usage of System.out or System.err by a logger.(¬Á»›
+^$squid:AssignmentInSubExpressionCheckm".Extract the assignment out of this expression.(£ıŒ¼
+Q
+squid:S106C";Replace this usage of System.out or System.err by a logger.(ºø–Í
+Q
+squid:S106m";Replace this usage of System.out or System.err by a logger.(£ıŒ¼
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛîËÅ8‚„Ï¦+
+Q
+squid:S106:";Replace this usage of System.out or System.err by a logger.(°†­‚
+Q
+squid:S106P";Replace this usage of System.out or System.err by a logger.(˜¡Ô®
+gsquid:CommentedOutCodeLinen"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+Msquid:S1172^"0Remove this unused method parameter "patientID".(ÎµêV8ıÈÏ¦+
+Q
+squid:S106r";Replace this usage of System.out or System.err by a logger.(¤ÅŠë
+Q
+squid:S106s";Replace this usage of System.out or System.err by a logger.(£ıŒ¼
+^$squid:AssignmentInSubExpressionChecks".Extract the assignment out of this expression.(£ıŒ¼
+V
+squid:S106G";Replace this usage of System.out or System.err by a logger.(İ›±ıÿÿÿÿ
+V
+squid:S106S";Replace this usage of System.out or System.err by a logger.(º‚á¬úÿÿÿÿ
+Q
+squid:S106V";Replace this usage of System.out or System.err by a logger.(˜¡Ô®
+Fsquid:S1481a"*Remove this unused "today" local variable.(±­Ñ¶úÿÿÿÿ
+Usquid:S1854a"9Remove this useless assignment to local variable "today".(±­Ñ¶úÿÿÿÿ

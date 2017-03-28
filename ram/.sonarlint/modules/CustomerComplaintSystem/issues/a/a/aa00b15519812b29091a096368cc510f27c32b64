@@ -1,0 +1,12 @@
+
+squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(³©­«8­´°+
+Fsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èúÂİ°+
+Csquid:S1166#"%Either log or rethrow this exception.(Œ°—ı8Ñ…ïÚ°+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8™Úô¶°+
+Fsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ñ…ïÚ°+
+Vsquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü8èúÂİ°+
+bsquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8èúÂİ°+
+Csquid:S11661"%Either log or rethrow this exception.(Œ°—ı8èúÂİ°+
+ksquid:S1192!"MDefine a constant instead of duplicating this literal "CustomerName" 3 times.(Ñÿ•Œ8ÎÊÀŞ°+
+Csquid:S1166?"%Either log or rethrow this exception.(Œ°—ı8ÎÊÀŞ°+
+Fsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÎÊÀŞ°+

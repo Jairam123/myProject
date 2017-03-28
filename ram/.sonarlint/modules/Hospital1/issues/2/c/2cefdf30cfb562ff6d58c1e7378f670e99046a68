@@ -1,0 +1,18 @@
+
+~squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(ÿ‚Ñæøÿÿÿÿ
+squid:S1488Q"aImmediately return this expression instead of assigning it to the temporary variable "resultSet".(ò¡¥¹8×Ï•´§+
+›squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶þÿÿÿÿ
+›squid:S1160F"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(îø¨ºøÿÿÿÿ
+gsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(Ê·Ý¿øÿÿÿÿ
+?squid:S1148a"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Usquid:S1135+"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8¼ºÆ³§+
+›squid:S1160."Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(’¼Ñýÿÿÿÿ
+•squid:S1160>"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÍÍãk
+–squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(™´™»
+Fsquid:EmptyStatementUsageCheck"Remove this empty statement.(–‚Ÿ‰
+nsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(³£ÙÙùÿÿÿÿ8×Ï•´§+
+›squid:S1160V"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÿ´Öïýÿÿÿÿ
+–squid:S1160M"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(·õï¶
+V
+squid:S106'";Replace this usage of System.out or System.err by a logger.(Ó‰Üòùÿÿÿÿ
+–squid:S11606"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ˆúÖß

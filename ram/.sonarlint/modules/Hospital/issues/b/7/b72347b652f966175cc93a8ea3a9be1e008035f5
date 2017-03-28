@@ -1,0 +1,38 @@
+
+esquid:S1132="IMove the "eye" string literal on the left side of this string comparison.(Ïç‰›üÿÿÿÿ
+Q
+squid:S1068";Replace this usage of System.out or System.err by a logger.(ºø–Í
+^$squid:AssignmentInSubExpressionCheckj".Extract the assignment out of this expression.(ğü—Û
+Q
+squid:S106E";Replace this usage of System.out or System.err by a logger.(œÔÈì
+dsquid:S1192B"MDefine a constant instead of duplicating this literal "PatientName:" 3 times.(ƒ°ç
+Q
+squid:S106d";Replace this usage of System.out or System.err by a logger.(œ÷¦·
+csquid:S1192?"LDefine a constant instead of duplicating this literal "DoctorName:" 3 times.(œÔÈì
+Q
+squid:S106N";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+Q
+squid:S106K";Replace this usage of System.out or System.err by a logger.(œÔÈì
+Q
+squid:S106B";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+bsquid:S1132I"KMove the "heart" string literal on the left side of this string comparison.(—Â‡ö
+psquid:S11920"TDefine a constant instead of duplicating this literal "||SpecialisationIN:" 4 times.(ùıÿÿÿÿ
+Q
+squid:S106Q";Replace this usage of System.out or System.err by a logger.(Åªâ„
+Q
+squid:S106S";Replace this usage of System.out or System.err by a logger.(úøåì
+^$squid:AssignmentInSubExpressionCheckf".Extract the assignment out of this expression.(ğü—Û
+Q
+squid:S106H";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+Q
+squid:S106/";Replace this usage of System.out or System.err by a logger.(ºá¹‘
+Q
+squid:S106f";Replace this usage of System.out or System.err by a logger.(ğü—Û
+csquid:S1132C"LMove the "cancer" string literal on the left side of this string comparison.(»åİà
+Q
+squid:S106j";Replace this usage of System.out or System.err by a logger.(ğü—Û
+Q
+squid:S106?";Replace this usage of System.out or System.err by a logger.(œÔÈì
+Q
+squid:S106i";Replace this usage of System.out or System.err by a logger.(¤ÅŠë
+isquid:S1192@"RDefine a constant instead of duplicating this literal "||ConsultancyFee:" 3 times.(«ªâ

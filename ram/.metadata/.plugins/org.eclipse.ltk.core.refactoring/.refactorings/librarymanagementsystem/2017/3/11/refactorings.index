@@ -1,0 +1,29 @@
+1489301473877	Move compilation unit
+1489301720236	Move compilation unit
+1489301730546	Move compilation unit
+1489313891603	Delete element
+1489381451564	Delete element
+1489382623705	Copy file
+1489384125750	Rename package 'com.girnarsoft.action'
+1489384176500	Rename package 'com.girnarsoft.beans'
+1489386586794	Delete element
+1489402635746	Rename resource 'sqldataInsertionErrorPage.jsp'
+1489416157796	Encapsulate field 'userName'
+1489416166594	Encapsulate field 'password'
+1489477036761	Delete element
+1489491341575	Delete element
+1489494501544	Delete element
+1489598991387	Extract constant 'INSERT_QUERY'
+1489599309056	Extract constant 'JDBC_URL'
+1489599355094	Extract constant 'USER_NAME'
+1489599501956	Extract constant 'JDBC_DRIVER_REGISTER'
+1489599670640	Extract constant 'LOGIN_VALIDATION_QUERY'
+1489599744932	Extract constant 'GET_BOOK_DETAILS_QUERY'
+1489599813922	Extract constant 'UPDATE_QUANTITY_QUERY'
+1489600345544	Extract constant 'GET_QUANTITY_SPECIFIC_BOOK'
+1489657042457	Extract constant 'BOOK_ID'
+1489657066205	Extract constant 'BOOK_NAME'
+1489657118305	Extract constant 'QUANTITY'
+1489657174734	Extract constant 'AUTHOR'
+1489661891079	Move file
+1489669653358	Move folder

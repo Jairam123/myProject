@@ -1,0 +1,16 @@
+
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍòŠš­+
+Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(£™Û‹ùÿÿÿÿ8ÍòŠš­+
+Csquid:S11667"%Either log or rethrow this exception.(É®£8ÍòŠš­+
+Csquid:S1166H"%Either log or rethrow this exception.(É®£8ÍòŠš­+
+Fsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍòŠš­+
+bsquid:S2147H"DCombine this catch with the one at line 70, which has the same body.(É®£8ÍòŠš­+
+xsquid:S1450"ZRemove the "bookDetails" field and declare it as a local variable in the relevant methods.(ğ›«š8ÍòŠš­+
+€squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(“¹ƒ‘8Û¼ú˜­+
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍòŠš­+
+Csquid:S1166F"%Either log or rethrow this exception.(ıàÑÎ8ÍòŠš­+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ĞÆÌÖüÿÿÿÿ8ÍòŠš­+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶şÿÿÿÿ8Û¼ú˜­+
+Csquid:S11665"%Either log or rethrow this exception.(ıàÑÎ8ÍòŠš­+
+bsquid:S21477"DCombine this catch with the one at line 53, which has the same body.(É®£8ÍòŠš­+
+Fsquid:S1148I"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÍòŠš­+

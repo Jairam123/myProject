@@ -1,0 +1,10 @@
+
+bsquid:S2147""DCombine this catch with the one at line 31, which has the same body.(É®£8Ä€š±­+
+Bsquid:S1948"&Make "user" transient or serializable.(’Ø¾ıÿÿÿÿ
+<squid:S1166""%Either log or rethrow this exception.(É®£
+?squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Psquid:S1948"-Make "userService" transient or serializable.(¶òÁÈùÿÿÿÿ8˜„³­+
+<squid:S1166"%Either log or rethrow this exception.(ıàÑÎ
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿ
+Wsquid:S3400)"9Remove this method and declare a constant for this value.(ùØ8£ê “­+
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

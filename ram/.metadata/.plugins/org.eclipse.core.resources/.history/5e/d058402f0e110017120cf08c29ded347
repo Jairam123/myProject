@@ -1,0 +1,35 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.girnarsoft.customercomplaintsystem.dao.EmployeeDao;
+import com.girnarsoft.customercomplaintsystem.dto.EmployeeDetails;
+
+
+public class UserService {
+   private EmployeeDao employeeDao;
+   public UserService() {
+	   employeeDao = new EmployeeDao();
+}
+	public Boolean insertUserDetailsIntoDao(EmployeeDetails employeeDetails) {
+		Boolean flag = true;
+		ResultSet rSet;
+		try {
+			rSet = employeeDao.getEmployeesEmail();
+			while (rSet.next()) {
+				if (employeeDetails.getEmail().equalsIgnoreCase(rSet.getString("Email"))) {
+					return flag=false;
+				}
+			  }
+			if (flag) {
+				employeeDao.insertEmployeeDetails(employeeDetails);
+			  }
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+		return flag;
+     }
+}	

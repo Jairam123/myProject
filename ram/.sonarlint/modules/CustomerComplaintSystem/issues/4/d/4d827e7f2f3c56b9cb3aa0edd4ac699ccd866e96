@@ -1,0 +1,11 @@
+
+Csquid:S11663"%Either log or rethrow this exception.(É®£8¡ˆü„°+
+bsquid:S2147""DCombine this catch with the one at line 32, which has the same body.(É®£8¤ŠÙ€°+
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡ˆü„°+
+Fsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡ˆü„°+
+Csquid:S11661"%Either log or rethrow this exception.(ıàÑÎ8¡ˆü„°+
+Csquid:S1166""%Either log or rethrow this exception.(É®£8¤ŠÙ€°+
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤ŠÙ€°+
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤ŠÙ€°+
+Csquid:S1166 "%Either log or rethrow this exception.(ıàÑÎ8¤ŠÙ€°+
+bsquid:S21473"DCombine this catch with the one at line 49, which has the same body.(É®£8¡ˆü„°+

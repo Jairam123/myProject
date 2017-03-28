@@ -1,0 +1,14 @@
+
+…squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(–ÀÍ„ùÿÿÿÿ8ØÆ¨°+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(öçìËÿÿÿÿÿ8¶º«œ°+
+ysquid:S1488)"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8šÒœ°°+
+squid:S1160,"Refactor this method to throw at most one checked exception instead of: java.sql.SQLException, java.lang.ClassNotFoundException(ªÇ»¦8ğÏ³£°+
+squid:S1160<"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(Ì¦Ë8šÒœ°°+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶şÿÿÿÿ8ØÆ¨°+
+ysquid:S1488F"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8“«‚›°+
+squid:S1160C"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(‡êÉÄ8šÒœ°°+
+\squid:S18544">Remove this useless assignment to local variable "categoryId".(­¡£°8ğÏ³£°+
+e$squid:AssignmentInSubExpressionCheck4".Extract the assignment out of this expression.(­¡£°8ğÏ³£°+
+ysquid:S1488?"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8šÒœ°°+
+¢squid:S1160&"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(õªß›ùÿÿÿÿ8“«‚›°+
+¢squid:S1160J"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(Œ¿´íùÿÿÿÿ8®ŞèÛ°+

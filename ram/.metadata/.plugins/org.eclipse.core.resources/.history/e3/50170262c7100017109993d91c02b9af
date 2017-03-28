@@ -1,0 +1,8 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+public class UserService {
+   
+	public void insertOfEmployeeDetailsInDb(){
+	      
+   }
+}

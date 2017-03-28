@@ -1,0 +1,7 @@
+
+Csquid:S1166"%Either log or rethrow this exception.(Œ°—ı8Õöš´°+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Õöš´°+
+Psquid:S1948"2Make "complaintDetails" transient or serializable.(­ö–8Õöš´°+
+Usquid:S1948"2Make "complaintService" transient or serializable.(Ò¢¡ ÿÿÿÿÿ8Õöš´°+
+]squid:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿ8Õöš´°+
+Xsquid:S1161":Add the "@Override" annotation above this method signature(—Û“ˆ8Õöš´°+

@@ -1,0 +1,12 @@
+package com.girnarsoft.threaddemo;
+
+public class BookMovietickets {
+
+	public static void main(String[] args) {
+      
+		BookingProcess bookingprocess=new BookingProcess();
+		Thread thread=new Thread(bookingprocess);
+		thread.start();
+	}
+
+}

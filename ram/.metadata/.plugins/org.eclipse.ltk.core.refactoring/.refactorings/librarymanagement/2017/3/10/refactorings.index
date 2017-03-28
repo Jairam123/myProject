@@ -1,0 +1,23 @@
+1489056324855	Encapsulate field 'username'
+1489056333410	Encapsulate field 'password'
+1489071198387	Move 'struts.xml' to 'classes'
+1489108004267	Rename resource 'hello.jsp'
+1489108312033	Delete element
+1489113123608	Encapsulate field 'username'
+1489113134808	Encapsulate field 'password'
+1489115240732	Rename resource 'librarybooks.jsp'
+1489121474638	Encapsulate field 'serialNo'
+1489121488034	Encapsulate field 'bookName'
+1489121498557	Encapsulate field 'quantity'
+1489121509450	Encapsulate field 'author'
+1489122241892	Move compilation unit
+1489122248723	Move compilation unit
+1489122455254	Rename resource 'booksdisplay.jsp'
+1489122639441	Rename field 'booklists'
+1489123967378	Encapsulate field 'checkBoxes'
+1489227840604	Encapsulate field 'firstName'
+1489228146505	Rename package 'com.girnarsoft.action'
+1489229508345	Rename package 'com.girnarsoft.beans'
+1489234263379	Rename resource 'login.js'
+1489235885285	Delete element
+1489253111751	Copy compilation unit

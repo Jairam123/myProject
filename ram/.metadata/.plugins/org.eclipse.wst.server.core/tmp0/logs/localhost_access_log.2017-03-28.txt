@@ -1,0 +1,6 @@
+127.0.0.1 - - [28/Mar/2017:12:11:17 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [28/Mar/2017:12:11:19 +0530] "GET /CustomerComplaintSystem/index.jsp HTTP/1.1" 200 1763
+127.0.0.1 - - [28/Mar/2017:12:11:19 +0530] "GET /CustomerComplaintSystem/Css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Mar/2017:12:11:19 +0530] "GET /CustomerComplaintSystem/Js/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [28/Mar/2017:12:12:03 +0530] "GET /CustomerComplaintSystem/signUp.action HTTP/1.1" 200 3096
+127.0.0.1 - - [28/Mar/2017:12:12:03 +0530] "GET /CustomerComplaintSystem/Js/signUp.js HTTP/1.1" 304 -

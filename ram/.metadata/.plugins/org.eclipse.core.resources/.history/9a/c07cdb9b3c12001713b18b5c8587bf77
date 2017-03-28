@@ -1,0 +1,53 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ManagerSearchResultAction extends ActionSupport {
+   private String customerName;
+   private String mobileNumber;
+   private String fromDate;
+   private String toDate;
+   private String email;
+
+public String execute(){
+	System.out.println(mobileNumber);
+	System.out.println(email);
+	return "success";
+	
+}
+   
+   
+   
+public String getMobileNumber() {
+	return mobileNumber;
+}
+public void setMobileNumber(String mobileNumber) {
+	this.mobileNumber = mobileNumber;
+}
+public String getFromDate() {
+	return fromDate;
+}
+public void setFromDate(String fromDate) {
+	this.fromDate = fromDate;
+}
+public String getToDate() {
+	return toDate;
+}
+public void setToDate(String toDate) {
+	this.toDate = toDate;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+public String getCustomerName() {
+	return customerName;
+}
+public void setCustomerName(String customerName) {
+	this.customerName = customerName;
+}
+
+
+}

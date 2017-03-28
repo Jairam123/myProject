@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     28-Feb-2017 10:03:03 PM                                                        
+
+     project    
+     description
+                   
+     gspl                                                                
+     ====================================================================== -->
+<project name="copy of hospital1" default="run">
+   <description>
+            description
+    </description> 
+    <path id="classpath">
+    <pathelement location="/home/gspl/ram/Copy of Hospital1/ant/build/lib"/>
+    <pathelement location="/home/gspl/ram/Copy of Hospital1/ant/build/bin"/>
+    </path>
+	
+	<target name="delete">
+		<delete dir="bin"/>  
+			   	<delete dir="src"/>
+			   	<delete dir="lib"/>
+	    </target>
+	   <target name="create" depends="delete">
+         <mkdir dir="bin"/>  
+	   	<mkdir dir="src"/>
+	   	<mkdir dir="lib"/>
+    </target> 
+  <target name="copy" depends="create">
+    <copydir src="/home/gspl/ram/Copy of Hospital1/src" dest="/home/gspl/ram/Copy of Hospital1/ant/build/src"></copydir>
+    <copy todir="/home/gspl/ram/Copy of Hospital1/ant/build/lib" >
+    	<fileset dir="/home/gspl/mysql" excludes="**/jdbc/**"></fileset>
+    </copy>	
+  	
+  </target>
+	<target name="compile" depends="copy">
+	<javac classpathref="classpath" includeantruntime="true" srcdir="/home/gspl/ram/Copy of Hospital1/ant/build/src" destdir="/home/gspl/ram/Copy of Hospital1/ant/build/bin"></javac>
+		</target>
+	<target name="run" depends="compile"> 
+	<java classpathref="classpath" classname=" RecptionistClient" fork="true"></java>
+	
+	</target>
+</project>

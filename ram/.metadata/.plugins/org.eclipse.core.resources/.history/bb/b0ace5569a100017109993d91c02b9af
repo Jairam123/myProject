@@ -1,0 +1,36 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import com.girnarsoft.customercomplaintsystem.dao.SecurityQuestionDao;
+import com.girnarsoft.customercomplaintsystem.dto.SecurityQuestionDetails;
+
+public class SignUpService {
+    SecurityQuestionDao securityQuestionDao;
+    SecurityQuestionDetails securityQuestionDetails;
+	public SignUpService() {
+		securityQuestionDao = new SecurityQuestionDao();
+		
+	}
+	public List<SecurityQuestionDetails> getQuestionsListFromDao() {
+		List<SecurityQuestionDetails> questionList = new ArrayList<>();
+	    try {
+			ResultSet rSet = securityQuestionDao.questionList();
+			while(rSet.next()){
+				securityQuestionDetails = new SecurityQuestionDetails(rSet.getInt("QuestionId"),rSet.getString("Question"));
+                questionList.add(securityQuestionDetails);			
+ 			
+			}
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return questionList;	
+	
+	}
+}

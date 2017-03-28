@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	 <package name="default" extends="struts-default">
+	  <action name="logIn" class="com.girnarsoft.customercomplaintsystem.actions.LogInAction">
+	  <result name="complaintReceiver">complaintReceiver.jsp</result>
+	  <result name="l1Manager" type="redirect">managerSearchFormDisplay</result>
+	  <result name="l2Manager">manager2.jsp</result>
+	  <result name="logInFailed">invalidUserName.jsp</result>
+	 </action>
+	 <action name="signUp" class="com.girnarsoft.customercomplaintsystem.actions.IndexAction">
+	  <result name="success">signUp.jsp</result>
+	 </action>
+	 <action name="register" class="com.girnarsoft.customercomplaintsystem.actions.RegisterAction">
+	  <result name="success">signUpSuccessfully.jsp</result>
+	  <result name="duplicatesInUserName">duplicatesInUserName.jsp</result>
+	  <result name="dataInsertionError">dataInsertionErrorPage.jsp</result>
+	 </action>
+	 <action name="complaintForm" class="com.girnarsoft.customercomplaintsystem.actions.ComplaintFormAction">
+	  <result name="success">/complaintForm.jsp</result>
+	 </action>
+	 <action name="complaintFile" class="com.girnarsoft.customercomplaintsystem.actions.ComplaintFileAction">
+	  <result name="success">complaintSuccessfullyFiled.jsp</result>
+	 </action>
+	<action name="managerSearchFormDisplay" class="com.girnarsoft.customercomplaintsystem.actions.ManagerSearchFormAction">
+	<result name="success">manager1.jsp</result>
+	</action>
+	<action name="managerSearchResult" class="com.girnarsoft.customercomplaintsystem.actions.ManagerSearchResultAction">
+	<result name="success">success.jsp</result>
+	</action>
+	<action name="logOut" class="com.girnarsoft.customercomplaintsystem.actions.LogInAction" method="logOut">
+	<result name="success">index.jsp</result>
+	</action>
+	<action name="forgot" class="com.girnarsoft.customercomplaintsystem.actions.IndexAction">
+	<result name="success">forgotPassword.jsp</result>
+	</action>
+	<action name="forgotAction" class="com.girnarsoft.customercomplaintsystem.actions.ForgotPasswordAction">
+	<result name="missMatch">forgotPassword.jsp</result>
+	<result name="success">forgotPassword.jsp</result>
+	</action>
+	
+ 	 </package>
+</struts>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+
+		<action name="login" class="com.girnarsoft.library.action.LoginAction">
+			<result name="success" type="redirect">bookDisplay</result>
+			<result name="signinsuccessful" type="redirect">bookDisplay</result>
+		</action>
+
+		<action name="bookDisplay" class="com.girnarsoft.action.LibraryBooksAction">
+			<result name="success">/booksDisplay.jsp</result>
+			<result name="return">/return.jsp</result>
+			<result name="borrow">/borrow.jsp</result>
+		</action>
+   
+	</package>
+</struts>      

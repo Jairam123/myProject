@@ -1,0 +1,17 @@
+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(•è§ÿÿÿÿÿ
+bsquid:S2142
+"FEither re-interrupt this method or rethrow the "InterruptedException".(ÃÍ˜éıÿÿÿÿ
+]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‘ò”û
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(åÒ‰€ûÿÿÿÿ
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Øãåìşÿÿÿÿ
+qsquid:S00122
+"TAt most one statement is allowed per line, but 3 statements were found on this line.(ÃÍ˜éıÿÿÿÿ
+lsquid:S00122"TAt most one statement is allowed per line, but 3 statements were found on this line.(‘ò”û
+qsquid:S00122"TAt most one statement is allowed per line, but 3 statements were found on this line.(åÒ‰€ûÿÿÿÿ
+qsquid:S00122"TAt most one statement is allowed per line, but 3 statements were found on this line.(Øãåìşÿÿÿÿ
+?squid:S1148
+"#Use a logger to log this exception.(ÃÍ˜éıÿÿÿÿ
+:squid:S1148"#Use a logger to log this exception.(‘ò”û
+?squid:S1148"#Use a logger to log this exception.(åÒ‰€ûÿÿÿÿ
+?squid:S1148"#Use a logger to log this exception.(Øãåìşÿÿÿÿ

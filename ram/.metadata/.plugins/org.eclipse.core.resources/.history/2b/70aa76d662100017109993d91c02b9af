@@ -1,0 +1,5 @@
+package com.girnarsoft.customercomplaintsystem.constant;
+
+public class DaoConstants {
+
+}

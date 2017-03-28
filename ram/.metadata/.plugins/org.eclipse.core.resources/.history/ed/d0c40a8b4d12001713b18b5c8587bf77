@@ -1,0 +1,57 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import com.girnarsoft.customercomplaintsystem.dao.ComplaintsDao;
+import com.girnarsoft.customercomplaintsystem.dto.ComplaintDetails;
+import com.girnarsoft.customercomplaintsystem.dto.CustomerDetails;
+
+public class ComplaintService {
+ private ComplaintsDao complaintsDao;
+ private CustomerDetails customerDetails;
+ 
+ public ComplaintService() {
+        complaintsDao = new ComplaintsDao();
+ }
+  public void insertComplaintDetailsInDb(ComplaintDetails complaintDetails) throws ClassNotFoundException, SQLException{
+	  try {
+		complaintsDao.insertComplaintDetailsInDb(complaintDetails);
+	} catch (ParseException e) {
+		e.printStackTrace();
+	}
+  }
+  public List<String> complainersList(){
+	  List<String> complainerList = new ArrayList<>();
+	  try {
+		     ResultSet rSet = complaintsDao.getComplainerNames();
+		     while(rSet.next()){
+		    	 complainerList.add(rSet.getString("CustomerName"));
+		     }
+	} catch (ClassNotFoundException | SQLException e) {
+		e.printStackTrace();
+	}
+	return complainerList;
+	  
+  }
+  public List<CustomerDetails> getCustomersList(int employeeId ,String customerName){
+	  List<CustomerDetails> customersList = new ArrayList<>();
+	  try {
+		    ResultSet rSet = complaintsDao.getCustomersListFromDb(employeeId, customerName);
+		    while(rSet.next()){
+		    	customerDetails = new CustomerDetails(rSet.getString(" CustomerMobileNumber "), rSet.getString("CustomerName"), rSet.getString("CustomerEmail"), rSet.getString("Comments"),rSet.getDate("ComplaintGeneratedDate"));
+		        customersList.add(customerDetails);
+		    }
+	} catch (ClassNotFoundException | SQLException e) {
+		e.printStackTrace();
+	}
+	return customersList;
+	  
+  }
+ 
+  
+}

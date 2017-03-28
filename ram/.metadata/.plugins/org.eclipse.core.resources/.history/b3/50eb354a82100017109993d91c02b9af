@@ -1,0 +1,18 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import java.sql.SQLException;
+import java.util.HashMap;
+
+import com.girnarsoft.customercomplaintsystem.dao.SecurityQuestionDao;
+
+public class SignUpService {
+    SecurityQuestionDao securityQuestionDao;
+    private HashMap<Integer,String> questionMap;
+	public SignUpServices() {
+		securityQuestionDao = new SecurityQuestionDao();
+		questionMap = new HashMap<>();
+	}
+	public HashMap<Integer,String> getQuestionsListFromDao() throws ClassNotFoundException, SQLException{
+		return questionMap=securityQuestionDao.questionList();
+	}
+}

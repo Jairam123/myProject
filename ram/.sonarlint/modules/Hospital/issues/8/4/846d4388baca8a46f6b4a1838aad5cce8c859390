@@ -1,0 +1,22 @@
+
+<squid:S1166W"%Either log or rethrow this exception.(ï­£Ä
+jsquid:S1450""SRemove the "line" field and declare it as a local variable in the relevant methods.(ÌÐáš
+Q
+squid:S106X";Replace this usage of System.out or System.err by a logger.(Ú¹Ë“
+vsquid:S1450"ZRemove the "patientName" field and declare it as a local variable in the relevant methods.(‚Ÿëçÿÿÿÿÿ
+Asquid:S11669"%Either log or rethrow this exception.(’ßã£øÿÿÿÿ
+squid:S1319c"sThe type of the "patientMap1" object should be an interface such as "Map" rather than the implementation "HashMap".(õçÇêùÿÿÿÿ
+Ksquid:EmptyStatementUsageCheckV"Remove this empty statement.(Åñ­õþÿÿÿÿ
+osquid:S1450"XRemove the "patientID" field and declare it as a local variable in the relevant methods.(½ÂŠÞ
+4squid:S2095F"Close this "FileReader".(õéµ¨ûÿÿÿÿ
+V
+squid:S106U";Replace this usage of System.out or System.err by a logger.(¬Äïëþÿÿÿÿ
+<squid:S1166T"%Either log or rethrow this exception.(‹±ÃÆ
+V
+squid:S106:";Replace this usage of System.out or System.err by a logger.(™ÝÖ‚ýÿÿÿÿ
+‰squid:S1319_"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(äøõÂûÿÿÿÿ
+wsquid:S1450"[Remove the "mobileNumber" field and declare it as a local variable in the relevant methods.(¯ÏÚûÿÿÿÿ
+osquid:S1450!"SRemove the "date" field and declare it as a local variable in the relevant methods.(§ó®Øýÿÿÿÿ
+4squid:S20952"Close this "FileWriter".(¢·²Ïûÿÿÿÿ
+nsquid:S1450"RRemove the "age" field and declare it as a local variable in the relevant methods.(Æ†´¦þÿÿÿÿ
+rsquid:S1450 "VRemove the "disease" field and declare it as a local variable in the relevant methods.(£ì† ùÿÿÿÿ

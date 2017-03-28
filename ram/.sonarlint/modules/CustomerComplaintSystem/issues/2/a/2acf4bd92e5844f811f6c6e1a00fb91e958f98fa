@@ -1,0 +1,5 @@
+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶þÿÿÿÿ8†Éÿù¯+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(‘©£Öûÿÿÿÿ8†Éÿù¯+
+…squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(–ÀÍ„ùÿÿÿÿ8†Éÿù¯+
+ysquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8†Éÿù¯+

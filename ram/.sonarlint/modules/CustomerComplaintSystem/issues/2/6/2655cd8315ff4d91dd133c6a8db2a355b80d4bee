@@ -1,0 +1,7 @@
+
+Osquid:S1948"1Make "employeeService" transient or serializable.(ŞÈ8©„ˆŞ°+
+Msquid:S00108"")Either remove or fill this block of code.(±¢ş¯ùÿÿÿÿ8Î‡²Û°+
+[squid:S1948"=Make "customersListByMobileNumber" transient or serializable.(¯¼Ü8Ú”şß°+
+]squid:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿ8à¸…Ù°+
+Ssquid:S1948"5Make "customersListByName" transient or serializable.(äÁœü8Ú”şß°+
+Usquid:S1948"2Make "complaintService" transient or serializable.(Ò¢¡ ÿÿÿÿÿ8©„ˆŞ°+

@@ -1,0 +1,11 @@
+
+Csquid:S1166)"%Either log or rethrow this exception.(É®£8Ù¡×£°+
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿ
+• squid:MethodCyclomaticComplexity"]The Cyclomatic Complexity of this method "execute" is 12 which is greater than 10 authorized.(“¦õøúÿÿÿÿ8Ù¡×£°+
+osquid:S1192#"LDefine a constant instead of duplicating this literal "logInFailed" 3 times.(©ïà‰şÿÿÿÿ8Ù¡×£°+
+bsquid:S2147)"DCombine this catch with the one at line 37, which has the same body.(É®£8Ù¡×£°+
+Csquid:S1166%"%Either log or rethrow this exception.(ıàÑÎ8Ù¡×£°+
+Xsquid:S1161?":Add the "@Override" annotation above this method signature(í“×•8çç²×°+
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ù¡×£°+
+Osquid:S1948"1Make "employeeService" transient or serializable.(ŞÈ8ıÏƒ°°+
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ù¡×£°+

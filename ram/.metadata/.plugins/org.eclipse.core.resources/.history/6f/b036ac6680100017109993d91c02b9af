@@ -1,0 +1,8 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+import com.opensymphony.xwork2.ActionSupport;
+public class SignInAction extends ActionSupport {
+      
+	public String execute(){
+    	return "success";  
+      }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.girnarsoft.strutsdemo.bean&apos; to &apos;com.girnarsoft.strutsdemo.action&apos;&#x0A;- Original project: &apos;strutsdemo&apos;&#x0A;- Original element: &apos;strutsdemo/src/com.girnarsoft.strutsdemo.bean&apos;&#x0A;- Renamed element: &apos;strutsdemo/src/com.girnarsoft.strutsdemo.action&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.girnarsoft.strutsdemo.bean&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.girnarsoft.strutsdemo.bean" name="com.girnarsoft.strutsdemo.action" qualified="false" references="true" stamp="1489308447207" textual="false" version="1.0"/>
+</session>

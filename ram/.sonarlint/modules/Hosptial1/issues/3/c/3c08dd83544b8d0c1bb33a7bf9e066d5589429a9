@@ -1,0 +1,29 @@
+
+i
+squid:S134A"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Âå°ÿÿÿÿÿ
+V
+squid:S106,";Replace this usage of System.out or System.err by a logger.(ãŞ„ûÿÿÿÿ
+Q
+squid:S1069";Replace this usage of System.out or System.err by a logger.(²Œø
+V
+squid:S106F";Replace this usage of System.out or System.err by a logger.(´óŠùşÿÿÿÿ
+V
+squid:S106N";Replace this usage of System.out or System.err by a logger.(ˆè“îşÿÿÿÿ
+Q
+squid:S106]";Replace this usage of System.out or System.err by a logger.(Òµİş
+Q
+squid:S106d";Replace this usage of System.out or System.err by a logger.(©±ßß
+V
+squid:S106t";Replace this usage of System.out or System.err by a logger.(Ùçô•ùÿÿÿÿ
+V
+squid:S106{";Replace this usage of System.out or System.err by a logger.(œ–Ã“úÿÿÿÿ
+R
+squid:S106‚";Replace this usage of System.out or System.err by a logger.(¶¤°€
+f squid:LabelsShouldNotBeUsedCheck#";Refactor the code to remove this label and the need for it.(ùûd
+f squid:LabelsShouldNotBeUsedCheck8";Refactor the code to remove this label and the need for it.(ùûd
+f squid:LabelsShouldNotBeUsedCheck\";Refactor the code to remove this label and the need for it.(ùûd
+8squid:S1170"!Make this final field static too.(»àç–
+=squid:S1170"!Make this final field static too.( Î«Öùÿÿÿÿ
+=squid:S1170"!Make this final field static too.(ü±øİüÿÿÿÿ
+8squid:S1170"!Make this final field static too.(÷ÎŠ
+=squid:S1170"!Make this final field static too.(á˜æÒùÿÿÿÿ

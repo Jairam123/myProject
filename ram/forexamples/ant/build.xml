@@ -1,0 +1,16 @@
+<project name="trail of ant" default="run" basedir=".">
+	<path id="jairam">
+		<pathelement location="${basedir}/bin" />
+	</path>
+	<target name="compile">
+		<javac srcdir="${basedir}/src" includeantruntime="true" includes="HelloWorld.java" destdir="${basedir}/bin">
+		</javac>
+	</target>
+	<target name="run" depends="compile">
+		<java classname="com.girnarsoft.staticdemo.HelloWorld" fork="true">
+			<classpath>
+				<path refid="jairam"></path>
+			</classpath>
+		</java>
+	</target>
+</project>

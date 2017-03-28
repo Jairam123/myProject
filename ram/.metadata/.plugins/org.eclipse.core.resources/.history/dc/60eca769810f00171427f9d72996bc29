@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="librarymanagementsystem">
+    <property name="context-root" value="librarymanagementsystem"/>
+    <wb-resource deploy-path="/" source-path="WebContent"/>
+    <property name="java-output-path" value="/target/classes"/>
+    <dependent-module archiveName="struts-taglib-1.3.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="struts-core-1.3.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="antlr-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/antlr/antlr/2.7.2/antlr-2.7.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-beanutils-1.8.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-logging-1.0.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-chain-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-chain/commons-chain/1.2/commons-chain-1.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-digester-1.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-digester/commons-digester/1.8/commons-digester-1.8.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-validator-1.3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="oro-2.0.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="struts2-core-2.3.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/struts/struts2-core/2.3.1.2/struts2-core-2.3.1.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="xwork-core-2.3.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/struts/xwork/xwork-core/2.3.1.2/xwork-core-2.3.1.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-lang-2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="ognl-3.0.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/ognl/ognl/3.0.4/ognl-3.0.4.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="javassist-3.11.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/javassist/javassist/3.11.0.GA/javassist-3.11.0.GA.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="asm-3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/asm/asm/3.3/asm-3.3.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="asm-commons-3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/asm/asm-commons/3.3/asm-commons-3.3.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="asm-tree-3.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/asm/asm-tree/3.3/asm-tree-3.3.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="freemarker-2.3.18.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/freemarker/freemarker/2.3.18/freemarker-2.3.18.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-fileupload-1.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="commons-io-2.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module archiveName="mysql-connector-java-5.1.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+  </wb-module>
+</project-modules>

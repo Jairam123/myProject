@@ -1,0 +1,48 @@
+
+csquid:S1192A"LDefine a constant instead of duplicating this literal "DoctorName:" 3 times.(œÔÈì
+dsquid:S1192D"MDefine a constant instead of duplicating this literal "PatientName:" 3 times.(ƒ°ç
+psquid:S11922"TDefine a constant instead of duplicating this literal "||SpecialisationIN:" 4 times.(ùıÿÿÿÿ
+isquid:S1192B"RDefine a constant instead of duplicating this literal "||ConsultancyFee:" 3 times.(«ªâ
+^$squid:AssignmentInSubExpressionCheckj".Extract the assignment out of this expression.(ğü—Û
+^$squid:AssignmentInSubExpressionCheckp".Extract the assignment out of this expression.(ğü—Û
+gsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+bsquid:CommentedOutCodeLines"<This block of commented-out lines of code should be removed.(Œ…­¤
+Q
+squid:S1061";Replace this usage of System.out or System.err by a logger.(ºá¹‘
+Q
+squid:S106:";Replace this usage of System.out or System.err by a logger.(ºø–Í
+Q
+squid:S106A";Replace this usage of System.out or System.err by a logger.(œÔÈì
+Q
+squid:S106D";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+Q
+squid:S106G";Replace this usage of System.out or System.err by a logger.(œÔÈì
+Q
+squid:S106J";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+Q
+squid:S106M";Replace this usage of System.out or System.err by a logger.(œÔÈì
+Q
+squid:S106P";Replace this usage of System.out or System.err by a logger.(ƒ°ç
+Q
+squid:S106S";Replace this usage of System.out or System.err by a logger.(Åªâ„
+Q
+squid:S106U";Replace this usage of System.out or System.err by a logger.(úøåì
+Q
+squid:S106h";Replace this usage of System.out or System.err by a logger.(œ÷¦·
+Q
+squid:S106j";Replace this usage of System.out or System.err by a logger.(ğü—Û
+Q
+squid:S106o";Replace this usage of System.out or System.err by a logger.(¤ÅŠë
+Q
+squid:S106p";Replace this usage of System.out or System.err by a logger.(ğü—Û
+esquid:S1132?"IMove the "eye" string literal on the left side of this string comparison.(Ïç‰›üÿÿÿÿ
+csquid:S1132E"LMove the "cancer" string literal on the left side of this string comparison.(»åİà
+bsquid:S1132K"KMove the "heart" string literal on the left side of this string comparison.(—Â‡ö
+Fsquid:S1481]"*Remove this unused "today" local variable.(±­Ñ¶úÿÿÿÿ
+Usquid:S1854]"9Remove this useless assignment to local variable "today".(±­Ñ¶úÿÿÿÿ
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+Xsquid:UselessImportCheck
+"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã
+Ssquid:UselessImportCheck"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+]squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

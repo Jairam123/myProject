@@ -1,0 +1,91 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.girnarsoft.customercomplaintsystem.dto.CustomerDetails;
+import com.girnarsoft.customercomplaintsystem.service.ComplaintService;
+import com.girnarsoft.customercomplaintsystem.service.EmployeeService;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ManagerSearchResultAction extends ActionSupport {
+   private String customerName;
+   private String mobileNumber;
+   private String fromDate;
+   private String toDate;
+   private String email;
+   private EmployeeService employeeService;
+   private ComplaintService complaintService;
+   private List<CustomerDetails> customersListByName = new ArrayList<>();
+   private List<CustomerDetails> customersListByMobileNumber = new ArrayList<>();
+   public ManagerSearchResultAction() {
+	employeeService = new EmployeeService();
+	complaintService = new ComplaintService();
+}
+
+public String execute(){
+        int employeeId = employeeService.getEmployeeId(email);	
+		if(customerName!=null){
+			customersListByName=complaintService.getCustomersListByCustomerName(employeeId, customerName);
+            
+		}else if(mobileNumber!=null){
+			customersListByMobileNumber=complaintService.getCustomersListByMobileNumber(employeeId, mobileNumber);
+		    	
+		}else if(fromDate!=null && toDate!=null){
+			
+		}
+		return "success";
+		
+	}
+   
+   
+   
+public String getMobileNumber() {
+	return mobileNumber;
+}
+public void setMobileNumber(String mobileNumber) {
+	this.mobileNumber = mobileNumber;
+}
+public String getFromDate() {
+	return fromDate;
+}
+public void setFromDate(String fromDate) {
+	this.fromDate = fromDate;
+}
+public String getToDate() {
+	return toDate;
+}
+public void setToDate(String toDate) {
+	this.toDate = toDate;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+public String getCustomerName() {
+	return customerName;
+}
+public void setCustomerName(String customerName) {
+	this.customerName = customerName;
+}
+
+
+public List<CustomerDetails> getCustomersListByMobileNumber() {
+	return customersListByMobileNumber;
+}
+
+public void setCustomersListByMobileNumber(List<CustomerDetails> customersListByMobileNumber) {
+	this.customersListByMobileNumber = customersListByMobileNumber;
+}
+
+public List<CustomerDetails> getCustomersListByName() {
+	return customersListByName;
+}
+
+public void setCustomersListByName(List<CustomerDetails> customersListByName) {
+	this.customersListByName = customersListByName;
+}
+
+}

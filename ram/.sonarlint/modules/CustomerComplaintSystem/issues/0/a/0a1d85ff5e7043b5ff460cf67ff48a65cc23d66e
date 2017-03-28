@@ -1,0 +1,10 @@
+
+ysquid:S1488/"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8 Å×°+
+…squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(–ÀÍ„ùÿÿÿÿ8ŽÔí³°+
+¢squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶þÿÿÿÿ8ŽÔí³°+
+squid:S11603"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(´±Žø8†í±Û°+
+¸squid:S1160"™Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException, java.text.ParseException(Ôòæ8ŽÔí³°+
+ysquid:S1488:"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8†í±Û°+
+œsquid:S1160,"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(®áÜ?8 Å×°+
+ysquid:S1488E"\Immediately return this expression instead of assigning it to the temporary variable "rSet".(¿²—\8œ¢µÞ°+
+squid:S1160>"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÿ®Ÿµ8œ¢µÞ°+

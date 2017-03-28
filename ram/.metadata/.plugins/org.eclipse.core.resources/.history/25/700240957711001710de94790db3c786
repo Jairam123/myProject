@@ -1,0 +1,23 @@
+package com.girnarsoft.customercomplaintsystem.dto;
+
+public class ManagerDetails {
+  private int employeeId;
+  private String managerName;
+public ManagerDetails(int managerId, String managerName) {
+	this.employeeId= managerId;
+	this.managerName = managerName;
+}
+public int getManagerId() {
+	return employeeId;
+}
+public void setManagerId(int employeeId) {
+	this.employeeId = managerId;
+}
+public String getManagerName() {
+	return managerName;
+}
+public void setManagerName(String managerName) {
+	this.managerName = managerName;
+}
+  
+}

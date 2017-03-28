@@ -1,0 +1,25 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.girnarsoft.customercomplaintsystem.dto.ManagerDetails;
+import com.girnarsoft.customercomplaintsystem.service.EmployeeService;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ComplaintFormAction extends ActionSupport {
+    private EmployeeService employeeService;
+    private List<ManagerDetails> managersList = new ArrayList<>();
+    public ComplaintFormAction() {
+	   employeeService = new EmployeeService();
+    }
+	public String execute(){
+		managersList=employeeService.getL1Managers();
+		return "success";
+	}
+	public List<ManagerDetails> getManagersList() {
+		return managersList;
+	}
+	public void setManagersList(List<ManagerDetails> managersList) {
+		this.managersList = managersList;
+	}
+}

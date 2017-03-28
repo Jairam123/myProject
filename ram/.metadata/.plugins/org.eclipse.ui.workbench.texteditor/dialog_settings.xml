@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="379" key="DIALOG_X_ORIGIN"/>
+		<item value="243" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="String" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="String"/>
+			<item value="Date"/>
+			<item value="userService"/>
+			<item value="UserService "/>
+			<item value="UserService"/>
+			<item value="EmployeeService"/>
+			<item value="forgot"/>
+			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Date"/>
+			<item value="String"/>
+			<item value="employeeService"/>
+			<item value="EmployeeService"/>
+			<item value="public static final String SELECT_QUERY_FOR_L1_MANAGER = &quot;select EmployeeName, EmployeeId from employee_details where EmployeeCategor=2&quot;;"/>
+			<item value="public"/>
+			<item value="userService"/>
+			<item value="bookService"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="324" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="435" key="DIALOG_HEIGHT"/>
+		<item value="819" key="DIALOG_X_ORIGIN"/>
+		<item value="78" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

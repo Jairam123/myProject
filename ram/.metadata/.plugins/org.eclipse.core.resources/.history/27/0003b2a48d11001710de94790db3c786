@@ -1,0 +1,16 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import java.sql.SQLException;
+
+import com.girnarsoft.customercomplaintsystem.dao.ComplaintsDao;
+import com.girnarsoft.customercomplaintsystem.dto.ComplaintDetails;
+
+public class ComplaintService {
+ private ComplaintsDao complaintsDao;
+ public ComplaintService() {
+        complaintsDao = new ComplaintsDao();
+ }
+  public void insertComplaintDetailsInDb(ComplaintDetails complaintDetails) throws ClassNotFoundException, SQLException{
+	  complaintsDao.insertComplaintDetailsInDb(complaintDetails);
+  }
+}

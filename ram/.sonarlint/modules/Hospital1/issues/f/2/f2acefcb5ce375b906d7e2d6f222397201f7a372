@@ -1,0 +1,26 @@
+
+f squid:LabelsShouldNotBeUsedCheck5";Refactor the code to remove this label and the need for it.(ùûd
+=squid:S1170"!Make this final field static too.(ü±øİüÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+V
+squid:S1066";Replace this usage of System.out or System.err by a logger.(ñ·àğüÿÿÿÿ
+8squid:S1170"!Make this final field static too.(÷ÎŠ
+Q
+squid:S106T";Replace this usage of System.out or System.err by a logger.(ØÃƒİ
+V
+squid:S106d";Replace this usage of System.out or System.err by a logger.(Ùçô•ùÿÿÿÿ
+Q
+squid:S106M";Replace this usage of System.out or System.err by a logger.(Ï»Ş’
+V
+squid:S106r";Replace this usage of System.out or System.err by a logger.(‡âÆŞıÿÿÿÿ
+8squid:S1170"!Make this final field static too.(‹Ÿ”
+V
+squid:S106k";Replace this usage of System.out or System.err by a logger.(Ôº˜‹şÿÿÿÿ
+=squid:S1170"!Make this final field static too.( Î«Öùÿÿÿÿ
+f squid:LabelsShouldNotBeUsedCheck!";Refactor the code to remove this label and the need for it.(ùûd
+V
+squid:S106>";Replace this usage of System.out or System.err by a logger.(×©Ç”ùÿÿÿÿ
+V
+squid:S106*";Replace this usage of System.out or System.err by a logger.(ğ¡øÿÿÿÿ
+8squid:S1170"!Make this final field static too.(»àç–
+f squid:LabelsShouldNotBeUsedCheckL";Refactor the code to remove this label and the need for it.(ùûd

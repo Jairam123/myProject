@@ -1,0 +1,20 @@
+
+›squid:S1160G"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(îø¨ºøÿÿÿÿ
+›squid:S1160/"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(’¼Ñıÿÿÿÿ
+–squid:S1160N"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(·õï¶
+V
+squid:S106"";Replace this usage of System.out or System.err by a logger.(‹á†ôüÿÿÿÿ
+gsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(³£ÙÙùÿÿÿÿ
+Nsquid:S1135,"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+›squid:S1160W"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÿ´Öïıÿÿÿÿ
+?squid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+–squid:S11607"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ˆúÖß
+xsquid:S1488R"aImmediately return this expression instead of assigning it to the temporary variable "resultSet".(ò¡¥¹
+gsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(Ê·İ¿øÿÿÿÿ
+V
+squid:S106(";Replace this usage of System.out or System.err by a logger.(Ó‰Üòùÿÿÿÿ
+›squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(äÎÂ¶şÿÿÿÿ
+–squid:S1160"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(™´™»
+Fsquid:EmptyStatementUsageCheck"Remove this empty statement.(–‚Ÿ‰
+•squid:S1160?"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ÍÍãk
+~squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(ÿ‚Ñæøÿÿÿÿ

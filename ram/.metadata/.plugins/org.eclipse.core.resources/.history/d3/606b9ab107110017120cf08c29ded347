@@ -1,0 +1,10 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import com.girnarsoft.customercomplaintsystem.dto.EmployeeDetails;
+
+public class UserService {
+   
+	public void insertEmployeeDetailsIntoDb(EmployeeDetails employeeDetails){
+	      
+   }
+}

@@ -1,0 +1,46 @@
+package com.girnarsoft.threaddemo;
+
+import java.util.Scanner;
+
+public class BookingSelectingMovie implements Runnable  {
+  Scanner scan =new Scanner(System.in);
+	public void run() {
+		System.out.println(" Villan \n Dilwale \n Dangal \n Saala Khadoos\n Hunger Games");
+		System.out.println("Please Enter Movie Name You Want Go:");
+		System.out.println("your selected movie was:"+scan.next());
+		}
+}	public void thankYouMsg() {
+       System.out.println("Thank for visiting");		
+	}
+	public void sms() {
+      System.out.println("SMS Delivered");		
+	}
+	public void email() {
+      System.out.println("Email Delivered");		
+	}
+	public void payment() {
+       System.out.println("Payment completed");		
+	}
+	public void noOfSeatsRequired() {
+          
+         System.out.println("Please Enter No of Seats Required");
+         System.out.println("No of seats Selected:"+scan.nextLine());
+	}
+	public void selectShow() {
+        
+		System.out.println("Morning Show \n Matine Show \n First Show \n Second Show");
+		System.out.println("Please Enter Show");
+		System.out.println("your selected show was:"+scan.next());
+	
+	}
+	private void selectMovie() {
+		System.out.println(" Villan \n Dilwale \n Dangal \n Saala Khadoos\n Hunger Games");
+		System.out.println("Please Enter Movie Name You Want Go:");
+		System.out.println("your selected movie was:"+scan.next());
+		
+		
+	
+	}
+	
+
+}

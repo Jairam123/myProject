@@ -1,0 +1,82 @@
+
+squid:S1192b"hDefine a constant instead of duplicating this literal "Sorry with this ID thier was no patient" 3 times.(ë¯Û÷
+Hsquid:S1068",Remove this unused "doctorID" private field.(ç«€„ıÿÿÿÿ
+tsquid:S1450"XRemove the "patientID" field and declare it as a local variable in the relevant methods.(¸œ¸‡úÿÿÿÿ
+;squid:S1219U"%Remove this misleading "Outer" label.(ùûd
+;squid:S1219i"%Remove this misleading "Outer" label.(ùûd
+;squid:S1219}"%Remove this misleading "Outer" label.(ùûd
+bsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(µû¿¹
+gsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(¦ÄËúøÿÿÿÿ
+n
+squid:S135U"YReduce the total number of break and continue statements in this loop to use at most one.(ùûd
+n
+squid:S135i"YReduce the total number of break and continue statements in this loop to use at most one.(ùûd
+n
+squid:S135}"YReduce the total number of break and continue statements in this loop to use at most one.(ùûd
+…squid:S1319Á"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ó±ÏÜ
+squid:S1319Å"rThe type of the "patientMap" object should be an interface such as "Map" rather than the implementation "HashMap".(Ë¡è«ùÿÿÿÿ
+i
+squid:S134X"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÉÓ Ïûÿÿÿÿ
+i
+squid:S134l"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÉÓ Ïûÿÿÿÿ
+j
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÉÓ Ïûÿÿÿÿ
+Q
+squid:S106-";Replace this usage of System.out or System.err by a logger.(Ø…ÿ¿
+V
+squid:S106.";Replace this usage of System.out or System.err by a logger.(»©ÔÍùÿÿÿÿ
+V
+squid:S106/";Replace this usage of System.out or System.err by a logger.(µ ÷úùÿÿÿÿ
+Q
+squid:S1060";Replace this usage of System.out or System.err by a logger.(Ø…ÿ¿
+V
+squid:S1063";Replace this usage of System.out or System.err by a logger.(üµ¸Îùÿÿÿÿ
+V
+squid:S1067";Replace this usage of System.out or System.err by a logger.(¡Æ¦Ùşÿÿÿÿ
+V
+squid:S106:";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+V
+squid:S106>";Replace this usage of System.out or System.err by a logger.(Æİ¿øÿÿÿÿ
+V
+squid:S106?";Replace this usage of System.out or System.err by a logger.(†Æ’‚úÿÿÿÿ
+V
+squid:S106D";Replace this usage of System.out or System.err by a logger.(»—ñıÿÿÿÿ
+Q
+squid:S106P";Replace this usage of System.out or System.err by a logger.(çœç´
+Q
+squid:S106V";Replace this usage of System.out or System.err by a logger.(£÷Å¹
+Q
+squid:S106[";Replace this usage of System.out or System.err by a logger.(Ã‚Ç—
+Q
+squid:S106^";Replace this usage of System.out or System.err by a logger.(ç¸™á
+Q
+squid:S106b";Replace this usage of System.out or System.err by a logger.(ë¯Û÷
+P
+squid:S106o";Replace this usage of System.out or System.err by a logger.(àÌ†
+V
+squid:S106r";Replace this usage of System.out or System.err by a logger.(óñ£×ûÿÿÿÿ
+Q
+squid:S106v";Replace this usage of System.out or System.err by a logger.(ë¯Û÷
+Q
+squid:S106„";Replace this usage of System.out or System.err by a logger.(Ãí…!
+W
+squid:S106‡";Replace this usage of System.out or System.err by a logger.(™éÑŸúÿÿÿÿ
+R
+squid:S106‹";Replace this usage of System.out or System.err by a logger.(ë¯Û÷
+Q
+squid:S106‘";Replace this usage of System.out or System.err by a logger.(ªÙñz
+W
+squid:S106›";Replace this usage of System.out or System.err by a logger.(å—‘Áûÿÿÿÿ
+W
+squid:S106Ÿ";Replace this usage of System.out or System.err by a logger.(îóÕ§ùÿÿÿÿ
+R
+squid:S106©";Replace this usage of System.out or System.err by a logger.(ÆÀûı
+_squid:HiddenFieldCheckœ"=Rename "patientID" which hides the field declared at line 20.(¡ø‹
+‡ squid:MethodCyclomaticComplexityN"\The Cyclomatic Complexity of this method "update" is 18 which is greater than 10 authorized.(±–€l
+bsquid:S1226;"FIntroduce a new variable instead of reusing the parameter "patientID".(Ş°Úæùÿÿÿÿ
+f squid:LabelsShouldNotBeUsedCheckU";Refactor the code to remove this label and the need for it.(ùûd
+f squid:LabelsShouldNotBeUsedChecki";Refactor the code to remove this label and the need for it.(ùûd
+f squid:LabelsShouldNotBeUsedCheck}";Refactor the code to remove this label and the need for it.(ùûd
+†squid:S1151T"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(ÙÆäÊÿÿÿÿÿ
+squid:S1151h"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(ç¿Ô
+squid:S1151|"jReduce this switch case number of lines from 19 to at most 5, for example by extracting code into methods.(¡È›

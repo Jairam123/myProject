@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+ <style>
+ body{
+ ackground:red;
+ }
+ </style>
+</head>
+<body>
+	<%@ taglib uri="/struts-tags" prefix="s"%>
+	<center>
+	<s:form action="bookDisplay" method="post">
+		<table border="1">
+			<tr>
+				<th>Select</th>
+				<th>S.no</th>
+				<th>Book name</th>
+				<th>Quantity</th>
+				<th>Author</th>
+			</tr>
+			<s:iterator value="booksList" status="counter">
+				<tr>
+					<td><s:checkbox name="checkBoxes" fieldValue="%{#counter.index}" theme="simple" /></td>
+					<td><s:property value="serialNo" /></td>
+					<td><s:property value="bookName" /></td>
+					<td><s:property value="quantity" /></td>
+					<td><s:property value="author" /></td>
+				</tr>
+			</s:iterator>
+		</table>
+		<s:submit method="returnBooks" value="return" align="left"/>
+		<s:submit method="borrowBooks" value="borrow" align="left"/>
+	</s:form>
+	</center>
+</body>
+</html>

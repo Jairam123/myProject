@@ -1,0 +1,9 @@
+
+Psquid:S3400F"9Remove this method and declare a constant for this value.(ùØ
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊåĞÛ¬+
+Csquid:S1166"%Either log or rethrow this exception.(ıàÑÎ8ÊåĞÛ¬+
+bsquid:S2147"DCombine this catch with the one at line 23, which has the same body.(É®£8ÿù‚É¬+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊåĞÛ¬+
+Csquid:S1166"%Either log or rethrow this exception.(É®£8ÿù‚É¬+
+Psquid:S1948"-Make "bookService" transient or serializable.(›Æç¢ûÿÿÿÿ8é¢°­+
+Nsquid:S1948"+Make "booksList" transient or serializable.(ªù¦úÿÿÿÿ8ÿù‚É¬+

@@ -1,0 +1,58 @@
+
+V
+squid:S1063";Replace this usage of System.out or System.err by a logger.(µ ÷úùÿÿÿÿ
+Q
+squid:S106Q";Replace this usage of System.out or System.err by a logger.(¢÷ó
+W
+squid:S106…";Replace this usage of System.out or System.err by a logger.(ÂÑ§óúÿÿÿÿ
+csquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(”ÒÉÑ
+Q
+squid:S1064";Replace this usage of System.out or System.err by a logger.(Ø…ÿ¿
+–squid:S1160O"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(è¶ší
+Isquid:S1068"-Remove this unused "patientID" private field.(¸œ¸‡úÿÿÿÿ
+Hsquid:S1068",Remove this unused "doctorID" private field.(ç«€„ıÿÿÿÿ
+Msquid:S1172O"6Remove this unused method parameter "patientServices".(è¶ší
+…squid:S1319 "mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ó±ÏÜ
+V
+squid:S1062";Replace this usage of System.out or System.err by a logger.(»©ÔÍùÿÿÿÿ
+W
+squid:S106†";Replace this usage of System.out or System.err by a logger.(ªÄ§£şÿÿÿÿ
+›squid:S1160)"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(Ã«Íıüÿÿÿÿ
+R
+squid:S106‡";Replace this usage of System.out or System.err by a logger.(ùø€
+R
+squid:S106";Replace this usage of System.out or System.err by a logger.(Â•ÓÁ
+Wsquid:S1854S";Remove this useless assignment to local variable "patient".(‚ÎŒ¸ıÿÿÿÿ
+^squid:HiddenFieldCheckt"=Rename "patientID" which hides the field declared at line 21.(¡ø‹
+Q
+squid:S106Z";Replace this usage of System.out or System.err by a logger.(Ìê©ı
+squid:S1319¤"rThe type of the "patientMap" object should be an interface such as "Map" rather than the implementation "HashMap".(Ë¡è«ùÿÿÿÿ
+Q
+squid:S106R";Replace this usage of System.out or System.err by a logger.(–—¶ê
+–squid:S1160r"Refactor this method to throw at most one checked exception instead of: java.lang.ClassNotFoundException, java.sql.SQLException(ƒ‰ÀĞ
+tsquid:S1450"XRemove the "patientID" field and declare it as a local variable in the relevant methods.(¸œ¸‡úÿÿÿÿ
+V
+squid:S106;";Replace this usage of System.out or System.err by a logger.(¡Æ¦Ùşÿÿÿÿ
+V
+squid:S106>";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Hsquid:S1481S",Remove this unused "patient" local variable.(‚ÎŒ¸ıÿÿÿÿ
+=squid:S1166"%Either log or rethrow this exception.(Â•ÓÁ
+hsquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(½¸É‘üÿÿÿÿ
+V
+squid:S1067";Replace this usage of System.out or System.err by a logger.(üµ¸Îùÿÿÿÿ
+Q
+squid:S106g";Replace this usage of System.out or System.err by a logger.(˜ÍÂœ
+W
+squid:S106ˆ";Replace this usage of System.out or System.err by a logger.(¸¡ ôúÿÿÿÿ
+Q
+squid:S1061";Replace this usage of System.out or System.err by a logger.(Ø…ÿ¿
+V
+squid:S106C";Replace this usage of System.out or System.err by a logger.(»—ñıÿÿÿÿ
+V
+squid:S106W";Replace this usage of System.out or System.err by a logger.(«Ö÷Îùÿÿÿÿ
+V
+squid:S106s";Replace this usage of System.out or System.err by a logger.(Ôº˜‹şÿÿÿÿ
+R
+squid:S106‰";Replace this usage of System.out or System.err by a logger.(øÍÃ×
+R
+squid:S106„";Replace this usage of System.out or System.err by a logger.(²±Âö

@@ -1,0 +1,9 @@
+package com.girnarsoft.customercomplaintsystem.actions;
+
+public class ChangePasswordAction {
+  private String email;
+  private String password;
+  private String newPassword;
+   
+  
+}  

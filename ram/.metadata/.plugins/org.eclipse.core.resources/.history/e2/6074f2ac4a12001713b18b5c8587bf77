@@ -1,0 +1,38 @@
+package com.girnarsoft.customercomplaintsystem.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.girnarsoft.customercomplaintsystem.dao.ComplaintsDao;
+import com.girnarsoft.customercomplaintsystem.dto.ComplaintDetails;
+
+public class ComplaintService {
+ private ComplaintsDao complaintsDao;
+ public ComplaintService() {
+        complaintsDao = new ComplaintsDao();
+ }
+  public void insertComplaintDetailsInDb(ComplaintDetails complaintDetails) throws ClassNotFoundException, SQLException{
+	  try {
+		complaintsDao.insertComplaintDetailsInDb(complaintDetails);
+	} catch (ParseException e) {
+		e.printStackTrace();
+	}
+  }
+  public List<String> complainersList(){
+	  List<String> complainerList = new ArrayList<>();
+	  try {
+		     ResultSet rSet = complaintsDao.getComplainerNames();
+		     while(rSet.next()){
+		    	 complainerList.add(rSet.getString("CustomerName"));
+		     }
+	} catch (ClassNotFoundException | SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	return complainerList;
+	  
+  }
+}
